@@ -1,0 +1,134 @@
+html, body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    margin: 0;
+}
+.header {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.menu {
+    width: 100%;
+    height: 60px;
+    background-color: #212736;
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+    font-size: 16px;
+    display: inline-block;
+    margin: 0px 10px;
+}
+nav ul{
+    padding-left: 500px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
+.titel{
+    color: white;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.content{
+    padding-left:80px;
+    padding-top: 50px;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.content h2{
+    width: 250px;
+    margin: 0;
+    border-bottom: 2px solid;
+}
+.content h1{
+    font-size: 25px;
+}
+.content p{
+    overflow: hidden;
+    width: 1000px;
+    font-size: 18px;
+}
+.bttn-verwijder{
+    border-radius: 10%;
+    background-color: rgb(164, 33, 33);
+    border: none;
+    color: white;
+    padding: 16px 28px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.bttn-update{
+    border-radius: 10%;
+    background-color: rgb(174, 174, 27);
+    border: none;
+    color: white;
+    padding: 13px 50px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.blog-titel{
+    padding-top: 20px;
+    font-size: 30px;
+    text-decoration: none;
+}
+.blog-datum{
+    color:#acacac;
+}
+.blog-tekst p{
+    overflow: hidden;
+    width: 350px;
+    height: 220px;
+    /* -webkit-mask-image: linear-gradient(180deg, #000 60%, transparent); */
+}
+.blog-foto{
+    padding-top: 30px;
+    width: 300px;
+    height: 300px;
+}
+.geplaatst{
+    color: green;
+    font-size: 17px;
+}
+.verwijderd{
+    color: red;
+    font-size: 17px;
+}
+.blog-maken{
+    padding-left: 80px;
+    padding-top: 50px;
+}
+input[type=text]{
+    padding-right: 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
+textarea {
+    width: 300px;
+    height: 180px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+input[type=submit]{
+    border-radius: 10%;
+    background-color: #2D2641;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
